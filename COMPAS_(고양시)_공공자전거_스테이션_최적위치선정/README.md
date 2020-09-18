@@ -18,5 +18,22 @@
 - 일정 및 결과제출 방법은 [COMPAS 홈페이지 참조](https://compas.lh.or.kr/subj/past/info?subjNo=SBJ_2007_001)
 ---
 ## 프로그래밍
+### 0. 환경
+- COMPAS 홈페이지에서 제공하는 `Jupyter hub`를 사용했다.
 ### 1. 라이브러리 import 하기
-
+#### 1-1. 필요 데이터 불러오기
+![image](https://user-images.githubusercontent.com/67505208/93592106-8825d400-f9ec-11ea-9dd2-4274894cd877.png)
+- 위의 방법은 COMPAS에서 제공하는 `Jupyter hub` 환경만의 방법으로 간편하게 데이터를 호출할 수 있다.
+  - 예시
+  ```python
+  from geoband.API import *
+  GetCompasData('SBJ_2007_001', '1', '01.운영이력.csv')
+  ```
+#### 1-2. 데이터 처리를 위한 패키지와 모듈 불러오기
+![image](https://user-images.githubusercontent.com/67505208/93592362-008c9500-f9ed-11ea-9061-758372a3b12d.png)
+### 2. 데이터 전처리
+#### 2-1. 스테이션의 좌표값으로 구역값(구, 동) 부여
+- '02.자전거스테이션.csv'의 위도와 경도 데이터
+![image](https://user-images.githubusercontent.com/67505208/93592658-86104500-f9ed-11ea-8e55-0ce842bfc23a.png)
+- '34.고양시_행정경계(행정동기준).geojson'의 geometry값(`MULTIPOLYGON` 형태이다.)
+![image](https://user-images.githubusercontent.com/67505208/93592812-ca034a00-f9ed-11ea-96c0-6cf86f0c4b6c.png)
