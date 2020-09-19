@@ -64,5 +64,5 @@
 - 사용 라이브러리 : 
 - 인원 : 1명
 - 기간 : 2020.09.16 - 2020.09.18
-- 내용 : 네이버 데이터 랩 검색량과 주가와의 상관관계 분석
+- 내용 : CJ ENM을 배급사로 한 영화를 키워드로 네이버 데이터 랩 검색량을 분석하고 키워드에 대한 검색량과 CJ ENM 주가와의 상관관계 분석
 - 결과물 : [소스 코드](https://github.com/OH1107/Project/blob/master/Analyze_Stock_as_NaverDataLab/Analyze_Stock_as_NaverDataLab.ipynb)
