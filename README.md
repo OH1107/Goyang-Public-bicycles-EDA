@@ -52,7 +52,7 @@
 ## 포트폴리오
 ### ☞ COMPAS - (고양시) 공공자전거 스테이션 최적의 위치선정
 - 작업툴 : `Python`, `Jupyter Notebook`, `Google Colab`, `QGIS`
-- 사용 라이브러리 : 
+- 사용 라이브러리 : `pandas`, `numpy`, `matplotlib`, `haersine`, `geojson`, `json`, `folium`, `shpely.geometry`
 - 인원 : 5명
 - 기간 : 2020.07.28 - 2020.09.11 / 2020.09.23 수상자발표
 - 내용 : 공공자전거 운영이력 데이터 및 공간 데이터를 활용하여 자전거 스테이션의 최적 위치를 선정하여 향후 시민들의 공공자전거 사용에 대한 접근성을 개선하기 위한 프로젝트
@@ -61,7 +61,7 @@
 - 결과물 : [최종 분석보고서](https://github.com/OH1107/Project/blob/master/COMPAS_(%EA%B3%A0%EC%96%91%EC%8B%9C)_%EA%B3%B5%EA%B3%B5%EC%9E%90%EC%A0%84%EA%B1%B0_%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98_%EC%B5%9C%EC%A0%81%EC%9C%84%EC%B9%98%EC%84%A0%EC%A0%95/%ED%94%BC%ED%94%84%ED%8B%B4%EC%9D%84%ED%83%84%EB%AC%B8%EB%8F%8C%EC%9D%B4_%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf), [제출용 소스코드](https://github.com/OH1107/Project/blob/master/COMPAS_(%EA%B3%A0%EC%96%91%EC%8B%9C)_%EA%B3%B5%EA%B3%B5%EC%9E%90%EC%A0%84%EA%B1%B0_%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98_%EC%B5%9C%EC%A0%81%EC%9C%84%EC%B9%98%EC%84%A0%EC%A0%95/%ED%94%BC%ED%94%84%ED%8B%B4%EC%9D%84%ED%83%84%EB%AC%B8%EB%8F%8C%EC%9D%B4.ipynb)
 ### ☞ Analyze_Stock_as_NaverDataLab
 - 작업툴 : `Python`, `Colab`, `BigQuery`, `Naver Data Lab`
-- 사용 라이브러리 : 
+- 사용 라이브러리 : `pandas`, `matplotlib`, `requests`, `BeautifulSoup`, `gbq`, `os`, `sys`
 - 인원 : 1명
 - 기간 : 2020.09.16 - 2020.09.18
 - 내용 : CJ ENM을 배급사로 한 영화를 키워드로 네이버 데이터 랩 검색량을 분석하고 키워드에 대한 검색량과 CJ ENM 주가와의 상관관계 분석
