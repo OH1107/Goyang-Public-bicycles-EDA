@@ -16,6 +16,10 @@
   - 스테이션별 자전거 수용 용량 최대 30대
 ### 참고
 - 일정 및 결과제출 방법은 [COMPAS 홈페이지 참조](https://compas.lh.or.kr/subj/past/info?subjNo=SBJ_2007_001)
+## 설명
+- 인원 : 5명
+- 작업툴 : `Python`, `Jupyter Notebook`, `Google Colab`, `QGIS`
+- 사용 라이브러리 : `pandas`, `numpy`, `matplotlib`, `haersine`, `geojson`, `json`, `folium`, `shpely.geometry`
 ## 데이터
 - [COMPAS에서 제공한 35종 데이터](https://github.com/OH1107/Project/tree/master/COMPAS_(%EA%B3%A0%EC%96%91%EC%8B%9C)_%EA%B3%B5%EA%B3%B5%EC%9E%90%EC%A0%84%EA%B1%B0_%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98_%EC%B5%9C%EC%A0%81%EC%9C%84%EC%B9%98%EC%84%A0%EC%A0%95/data)
 ---
