@@ -75,9 +75,9 @@
 - 내용 : CJ ENM을 배급사로 한 영화를 키워드로 네이버 데이터 랩 검색량을 분석하고 키워드에 대한 검색량과 CJ ENM 주가와의 상관관계 분석
 - 결과물 : [소스 코드](https://github.com/OH1107/Project/blob/master/Analyze_Stock_as_NaverDataLab/Analyze_Stock_as_NaverDataLab.ipynb)
 ### ☞ NLP(자연어처리)를 사용한 영화 감상평 감성분석
-- 작업툴 : `Python`, `Colab`
-- 사용 라이브러리 : `pandas`, `numpy`
+- 작업툴 : `Python`, `Colab`, `Jupyter Notebook`
+- 사용 라이브러리 : `pandas`, `numpy`, `konlpy`, `re`, `sklearn`, `tensorflow`
 - 인원 : 1명
-- 기간 : 
-- 내용 : 네이버 영화 댓글의 긍정, 부정 댓글 데이터를 학습, 임의의 댓글이 입력되면 해당 댓글이 긍정인지 부정인지 구분하는 알고리즘 개발
-- 결과물 : 
+- 기간 : 2020.09.19 ~ 2020.09.22
+- 내용 : 리뷰 데이터로(네이버 영화 리뷰를 크롤링하며 각각의 리뷰에 대한 별점의 값으로 긍정, 부정 태그 값) 토큰화를 진행하고, ML(베이지안 확률), DL(LSTM-RNN)의 모델을 이용하여 토큰화된 데이터를 학습, 테스트를 통해 정확도를 측정
+- 결과물 : [ML소스코드](https://github.com/OH1107/Project/blob/master/%EB%84%A4%EC%9D%B4%EB%B2%84_%EC%98%81%ED%99%94%EB%A6%AC%EB%B7%B0_%EA%B0%90%EC%A0%95%EB%B6%84%EC%84%9D/ML_BayesianProbability.ipynb), [DL소스코드](https://github.com/OH1107/Project/blob/master/%EB%84%A4%EC%9D%B4%EB%B2%84_%EC%98%81%ED%99%94%EB%A6%AC%EB%B7%B0_%EA%B0%90%EC%A0%95%EB%B6%84%EC%84%9D/DL_RNN_%EA%B0%90%EC%84%B1%EB%B6%84%EC%84%9D.ipynb)
