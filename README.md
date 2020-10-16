@@ -82,4 +82,4 @@
 - 기간 : 2020.09.19 ~ 2020.09.22
 - 내용 : 리뷰 데이터로(네이버 영화 리뷰를 크롤링하며 각각의 리뷰에 대한 별점의 값으로 긍정, 부정 태그 값) 토큰화를 진행하고, ML(베이지안 확률), DL(LSTM-RNN)의 모델을 이용하여 토큰화된 데이터를 학습, 테스트를 통해 정확도를 측정
 - 결과물 : [ML소스코드](https://github.com/OH1107/Project/blob/master/%EB%84%A4%EC%9D%B4%EB%B2%84_%EC%98%81%ED%99%94%EB%A6%AC%EB%B7%B0_%EA%B0%90%EC%A0%95%EB%B6%84%EC%84%9D/ML_BayesianProbability.ipynb), [DL소스코드](https://github.com/OH1107/Project/blob/master/%EB%84%A4%EC%9D%B4%EB%B2%84_%EC%98%81%ED%99%94%EB%A6%AC%EB%B7%B0_%EA%B0%90%EC%A0%95%EB%B6%84%EC%84%9D/DL_RNN_%EA%B0%90%EC%84%B1%EB%B6%84%EC%84%9D.ipynb)
-### ☞
+### ☞ 코로나 이후 소비트랜드 분석 인사이트
