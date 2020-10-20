@@ -85,3 +85,4 @@
 ### ☞ 코로나 이후 소비트랜드 분석 인사이트
 - 작업툴 : `Python`, `Colab`, `Power BI`
 - 사용 라이브러리 : `pandas`, `numpy`, `scipy`
+- 인원 : 5명
