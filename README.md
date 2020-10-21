@@ -84,5 +84,6 @@
 - 결과물 : [ML소스코드](https://github.com/OH1107/Project/blob/master/%EB%84%A4%EC%9D%B4%EB%B2%84_%EC%98%81%ED%99%94%EB%A6%AC%EB%B7%B0_%EA%B0%90%EC%A0%95%EB%B6%84%EC%84%9D/ML_BayesianProbability.ipynb), [DL소스코드](https://github.com/OH1107/Project/blob/master/%EB%84%A4%EC%9D%B4%EB%B2%84_%EC%98%81%ED%99%94%EB%A6%AC%EB%B7%B0_%EA%B0%90%EC%A0%95%EB%B6%84%EC%84%9D/DL_RNN_%EA%B0%90%EC%84%B1%EB%B6%84%EC%84%9D.ipynb)
 ### ☞ 코로나 이후 소비트랜드 분석 인사이트
 - 작업툴 : `Python`, `Colab`, `Power BI`
-- 사용 라이브러리 : `pandas`, `numpy`, `scipy`
+- 사용 라이브러리 : `pandas`, `numpy`, `scipy`, `matplotlib`, `seaborn`
 - 인원 : 5명
+
