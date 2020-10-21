@@ -86,4 +86,4 @@
 - 작업툴 : `Python`, `Colab`, `Power BI`
 - 사용 라이브러리 : `pandas`, `numpy`, `scipy`, `matplotlib`, `seaborn`
 - 인원 : 5명
-
+- 기간 : 2020.10.05 ~ 2020.10.16
