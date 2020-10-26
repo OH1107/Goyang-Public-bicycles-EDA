@@ -64,7 +64,6 @@
 - 기간 : 2020.07.28 - 2020.09.11
 - 내용 : 공공자전거 운영이력 데이터 및 공간 데이터를 활용하여 자전거 스테이션의 최적 위치를 선정하여 향후 시민들의 공공자전거 사용에 대한 접근성을 개선하기 위한 프로젝트
 - 담당 업무 : 시나리오 방향성 제안, 해당 시나리오를 입증 및 구현하기 위해 데이터 정제 및 시각화 관련 코딩 작업
-  - `상세하게 기입 추가`
 - 최종 결과물 : [최종 분석보고서](https://github.com/OH1107/Project/blob/master/COMPAS_(%EA%B3%A0%EC%96%91%EC%8B%9C)_%EA%B3%B5%EA%B3%B5%EC%9E%90%EC%A0%84%EA%B1%B0_%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98_%EC%B5%9C%EC%A0%81%EC%9C%84%EC%B9%98%EC%84%A0%EC%A0%95/submission/%ED%94%BC%ED%94%84%ED%8B%B4%EC%9D%84%ED%83%84%EB%AC%B8%EB%8F%8C%EC%9D%B4_%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf), [제출용 소스코드](https://github.com/OH1107/Project/blob/master/COMPAS_(%EA%B3%A0%EC%96%91%EC%8B%9C)_%EA%B3%B5%EA%B3%B5%EC%9E%90%EC%A0%84%EA%B1%B0_%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98_%EC%B5%9C%EC%A0%81%EC%9C%84%EC%B9%98%EC%84%A0%EC%A0%95/submission/%ED%94%BC%ED%94%84%ED%8B%B4%EC%9D%84%ED%83%84%EB%AC%B8%EB%8F%8C%EC%9D%B4_%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C.ipynb)
 - 프로젝트 결과 : 참가상
 ### ☞ Analyze_Stock_as_NaverDataLab
