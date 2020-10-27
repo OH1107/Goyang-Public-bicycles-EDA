@@ -58,7 +58,8 @@
 - 2015.04. ~ 2017.01. 육군 병장 제대
 ## 포트폴리오
 ### ☞ COMPAS - (고양시) 공공자전거 스테이션 최적의 위치선정
-- 작업툴 : `Python`, `Jupyter Notebook`, `Google Colab`, `QGIS`
+- 사용언어 : `Python`
+- 작업툴 : `Jupyter Notebook`, `Google Colab`, `QGIS`
 - 사용 라이브러리 : `pandas`, `numpy`, `matplotlib`, `haersine`, `geojson`, `json`, `folium`, `shpely.geometry`
 - 인원 : 5명
 - 기간 : 2020.07.28 - 2020.09.11
