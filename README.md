@@ -77,7 +77,8 @@
 - 결과물 : [소스 코드](https://github.com/OH1107/Project/blob/master/Analyze_Stock_as_NaverDataLab/Analyze_Stock_as_NaverDataLab.ipynb)
 
 ### ☞ NLP(자연어처리)를 사용한 영화 감상평 감성분석
-- 작업툴 : `Python`, `Colab`, `Jupyter Notebook`
+- 사용언어 : `Python`
+- 작업툴 : `Colab`, `Jupyter Notebook`
 - 사용 라이브러리 : `pandas`, `numpy`, `konlpy`, `re`, `sklearn`, `tensorflow`
 - 인원 : 1명
 - 기간 : 2020.09.19 ~ 2020.09.22
