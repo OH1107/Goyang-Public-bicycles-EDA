@@ -64,7 +64,7 @@
 
 - '02.자전거스테이션.csv'에 'dong'이라는 컬럼으로 병합시켜 위치값을 추가한다.
 ![스크린샷 2020-11-09 오후 6 14 58](https://user-images.githubusercontent.com/67505208/98522032-8b846000-22b7-11eb-980f-695b3da9d39c.png)
-
+### 동별 월별 이용량 확인
 - 그럼 이제 이떤 동의 스테이션이 반납과 대여가 활발한지 알아보고자 한다. 그에 앞서 대여, 반납 정보가 포함되어 있는 '01.운영이력.csv' 데이터를 확인해본다.
 
   | LEAS_NO | LEAS_STAT | LEAS_DATE | LEAS_STATION | LEAS_DEF_NO | RTN_DATE | RTN_STATION | RTN_DEF_NO | TRNV_QTY | MEMB_DIV | MEMB_NO | TEMP_MEMB_NO | BIKE_TAG | RTN_PROCESS
@@ -88,3 +88,15 @@
 ![image](https://user-images.githubusercontent.com/67505208/98523257-0a2dcd00-22b9-11eb-82d7-f8808ce50e97.png)
 ![image](https://user-images.githubusercontent.com/67505208/98523223-00a46500-22b9-11eb-9d11-bf4982501597.png)
 - __대여, 반납이 많은 순으로 정렬했을때, 스테이션의 등수가 대부분 동일한 것을 볼 수 있다.__
+
+### 동별 주말/평일 이용량 TOP 10 선별
+
+### 동별 출퇴근/등하교 이용량 TOP 10 선별
+
+### 동별 인구수 증가 지역 TOP 10 선별
+
+### 신규 스테이션 추가 대상 지역
+  - QGIS를 통해 신규 스테이션 마킹
+  
+### 신규 스테이션
+![image](https://user-images.githubusercontent.com/67505208/93592106-8825d400-f9ec-11ea-9dd2-4274894cd877.png)
