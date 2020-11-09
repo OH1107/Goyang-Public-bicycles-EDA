@@ -24,10 +24,9 @@
 - [COMPAS에서 제공한 35종 데이터](https://github.com/OH1107/Project/tree/master/COMPAS_(%EA%B3%A0%EC%96%91%EC%8B%9C)_%EA%B3%B5%EA%B3%B5%EC%9E%90%EC%A0%84%EA%B1%B0_%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98_%EC%B5%9C%EC%A0%81%EC%9C%84%EC%B9%98%EC%84%A0%EC%A0%95/data)
 ---
 ## 프로그래밍
-### 0. 환경
 - COMPAS 홈페이지에서 제공하는 `Jupyter hub`를 사용했다.
-### 1. 라이브러리 import 하기
-#### 1-1. 필요 데이터 불러오기
+
+- 분석에 필요한 5가지의 데이터를 호출하도록 한다. 
 ![image](https://user-images.githubusercontent.com/67505208/93592106-8825d400-f9ec-11ea-9dd2-4274894cd877.png)
 - 위의 방법은 COMPAS에서 제공하는 `Jupyter hub` 환경만의 방법으로 간편하게 데이터를 호출할 수 있다.
   - 예시
@@ -35,11 +34,41 @@
   from geoband.API import *
   GetCompasData('SBJ_2007_001', '1', '01.운영이력.csv')
   ```
-#### 1-2. 데이터 처리를 위한 패키지와 모듈 불러오기
+- 데이터 처리를 위한 패키지와 모듈 불러온다.
 ![image](https://user-images.githubusercontent.com/67505208/93592362-008c9500-f9ed-11ea-9061-758372a3b12d.png)
-### 2. 데이터 전처리
-#### 2-1. 스테이션의 좌표값으로 구역값(구, 동) 부여
-- '02.자전거스테이션.csv'의 위도와 경도 데이터
+
+- 데이터 형태를 먼저 확인해보도록 한다.
+  - '02.자전거스테이션.csv'의 위도와 경도 데이터
 ![image](https://user-images.githubusercontent.com/67505208/93592658-86104500-f9ed-11ea-8e55-0ce842bfc23a.png)
-- '34.고양시_행정경계(행정동기준).geojson'의 geometry값(`MULTIPOLYGON` 형태이다.)
+  - '34.고양시_행정경계(행정동기준).geojson'의 geometry값(`MULTIPOLYGON` 형태이다.)
 ![image](https://user-images.githubusercontent.com/67505208/93592812-ca034a00-f9ed-11ea-96c0-6cf86f0c4b6c.png)
+
+- 해당 Station별 위도와 경도 좌표를 통해 어떤 동에 위치하고 있는지 알아보고자 한다.
+![스크린샷 2020-11-09 오후 6 12 20](https://user-images.githubusercontent.com/67505208/98521728-2a5c8c80-22b7-11eb-80a1-9fa30ee1c08d.png)
+
+- '02.자전거스테이션.csv'에 'dong'이라는 컬럼으로 병합시켜 위치값을 추가한다.
+![스크린샷 2020-11-09 오후 6 14 58](https://user-images.githubusercontent.com/67505208/98522032-8b846000-22b7-11eb-980f-695b3da9d39c.png)
+
+- 그럼 이제 이떤 동의 스테이션이 반납과 대여가 활발한지 알아보고자 한다. 그에 앞서 대여, 반납 정보가 포함되어 있는 '01.운영이력.csv' 데이터를 확인해본다.
+
+  | LEAS_NO | LEAS_STAT | LEAS_DATE | LEAS_STATION | LEAS_DEF_NO | RTN_DATE | RTN_STATION | RTN_DEF_NO | TRNV_QTY | MEMB_DIV | MEMB_NO | TEMP_MEMB_NO | BIKE_TAG | RTN_PROCESS
+-- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
+15945541 | 2 | 2017-01-01 00:00:41 | 213 | 18 | 2017-01-01 00:13:52 | 260 | 17 | 0.0 | 6 | 164203 | 0.0 | 1A844000000BB7 | NaN
+15945542 | 2 | 2017-01-01 00:01:03 | 231 | 4 | 2017-01-01 00:50:24 | 231 | 17 | 31039.0 | 1 | 187551 | 0.0 | 1A844000000494 | NaN
+15945543 | 2 | 2017-01-01 00:01:50 | 119 | 14 | 2017-01-01 01:01:50 | 0 | 0 | NaN | 12 | 168994 | 0.0 | 1A844000000533 | 1.0
+15945544 | 2 | 2017-01-01 00:02:09 | 121 | 17 | 2017-01-01 00:15:58 | 133 | 14 | 15490.0 | 12 | 183971 | 0.0 | 1A844000000731 | NaN
+15945545 | 2 | 2017-01-01 00:03:32 | 320 | 29 | 2017-01-01 00:18:44 | 259 | 27 | 0.0 | 12 | 167475 | 0.0 | 1A84400000F343 | NaN
+
+- 월별 사용량을 알아보기 위해 대여, 반납 일시를 월별로 추출하도록한다.
+![image](https://user-images.githubusercontent.com/67505208/98522544-2bda8480-22b8-11eb-99e5-4bf1a1840969.png)
+
+- 또한 주최측에서 제시한 이상치에 대한 처리를 하도록한다.
+  - 반납 스테이션이 '0, 999, 998, 992'는 내부 확인용 혹은 분실 수리를 위한 별도 관리 ID
+  ![image](https://user-images.githubusercontent.com/67505208/98522843-82e05980-22b8-11eb-9735-9c2ac985f77c.png)
+  
+- 대여량과 반냡량을 카운트하여 최고 빈도수 즉, 사용이 활발한 스테이션을 확인해보도록 한다.
+![image](https://user-images.githubusercontent.com/67505208/98523064-ce930300-22b8-11eb-99eb-6396bcf4d2b9.png)
+![image](https://user-images.githubusercontent.com/67505208/98523132-e66a8700-22b8-11eb-81ad-6cdb275176cc.png)
+![image](https://user-images.githubusercontent.com/67505208/98523257-0a2dcd00-22b9-11eb-82d7-f8808ce50e97.png)
+![image](https://user-images.githubusercontent.com/67505208/98523223-00a46500-22b9-11eb-9d11-bf4982501597.png)
+- __대여, 반납이 많은 순으로 정렬했을때, 스테이션의 등수가 대부분 동일한 것을 볼 수 있다.__
