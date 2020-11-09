@@ -20,6 +20,22 @@
 - 인원 : 5명
 - 작업툴 : `Python`, `Jupyter Notebook`, `Google Colab`, `QGIS`
 - 사용 라이브러리 : `pandas`, `numpy`, `matplotlib`, `haersine`, `geojson`, `json`, `folium`, `shpely.geometry`
+- 분석 방향
+  - 현재 고양시 공공자전거(이하 피프틴)는 __여가 활동, 출퇴근/등하교의 목적으로 가장 많이 이용한다.__
+  ![image](https://user-images.githubusercontent.com/67505208/98527927-f6856500-22be-11eb-8775-db91d1cf83c5.png)
+  - 또한 __신도시계획에 따라 인구가 점점 증가하는 추세__이며, 이에 따라 피프틴의 이용량도 증가할 것이다.
+  ![image](https://user-images.githubusercontent.com/67505208/98528046-1b79d800-22bf-11eb-90da-0fd91fca7571.png)
+  - 그렇기에 __기존 피프틴 이용 목적__과 최근 __고양시 인구 증가 및 사회 변화__에 따라 __다음 3가지의 요소__로 신규 스테이션 위치 선정을 진행하고자 한다.
+    - 출퇴근/등하교 목적
+      - 출퇴근/등하교 시간대의 이용량을 분석하여 이용밀도가 높은 지역의 추가 스테이션 설치
+      - 주거 지구, 상업 지구, 학교를 중심으로 
+    - 여가 활동 목적
+      - 주말동안의 대여/반납 이용량을 분석하여 이용밀도가 높은 지역의 추가 스테이션 설치
+      - 주로 체육 시설과 같은 공공 여가 시설의 위치를 확인하며 진행
+    - 사회 변화 대응
+      - 도시 계획 진행을 고려한 추가 스테이션 배치
+      - 인구 통계 데이터를 기반으로 증가율을 반영
+
 ## 데이터
 - [COMPAS에서 제공한 35종 데이터](https://github.com/OH1107/Project/tree/master/COMPAS_(%EA%B3%A0%EC%96%91%EC%8B%9C)_%EA%B3%B5%EA%B3%B5%EC%9E%90%EC%A0%84%EA%B1%B0_%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98_%EC%B5%9C%EC%A0%81%EC%9C%84%EC%B9%98%EC%84%A0%EC%A0%95/data)
 ---
