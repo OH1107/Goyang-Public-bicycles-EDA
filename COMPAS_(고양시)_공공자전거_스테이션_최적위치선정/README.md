@@ -65,7 +65,8 @@
 - '02.자전거스테이션.csv'에 'dong'이라는 컬럼으로 병합시켜 위치값을 추가한다.
 ![스크린샷 2020-11-09 오후 6 14 58](https://user-images.githubusercontent.com/67505208/98522032-8b846000-22b7-11eb-980f-695b3da9d39c.png)
 
-### 동별 월별 이용량 확인
+### 동별 주말/평일 이용량 TOP 10 선별
+
 - 그럼 이제 이떤 동의 스테이션이 반납과 대여가 활발한지 알아보고자 한다. 그에 앞서 대여, 반납 정보가 포함되어 있는 '01.운영이력.csv' 데이터를 확인해본다.
 
   | LEAS_NO | LEAS_STAT | LEAS_DATE | LEAS_STATION | LEAS_DEF_NO | RTN_DATE | RTN_STATION | RTN_DEF_NO | TRNV_QTY | MEMB_DIV | MEMB_NO | TEMP_MEMB_NO | BIKE_TAG | RTN_PROCESS
@@ -90,8 +91,6 @@
 ![image](https://user-images.githubusercontent.com/67505208/98523223-00a46500-22b9-11eb-9d11-bf4982501597.png)
 - __대여, 반납이 많은 순으로 정렬했을때, 스테이션의 등수가 대부분 동일한 것을 볼 수 있다.__
 
-### 동별 주말/평일 이용량 TOP 10 선별
-
 ### 동별 출퇴근/등하교 이용량 TOP 10 선별
 - 앞서 진행했던 전처리 과정대로 스테이션별 대여, 반납 위치(행정동)을 추가한다.
 ![image](https://user-images.githubusercontent.com/67505208/98662702-87c20d80-238b-11eb-86d1-42326653c19d.png)
@@ -101,10 +100,38 @@
 ![image](https://user-images.githubusercontent.com/67505208/98662921-c6f05e80-238b-11eb-8210-4a1ad1120b98.png)
 
 - 출퇴근 시간대를 파악하기 위해 평일동안의 사용량(대여,반납)을 시간별로 확인해본다.
-![image](https://user-images.githubusercontent.com/67505208/98664050-37e44600-238d-11eb-8b4b-ef82634b8b88.png)
-  - 스테이션별 반납 사용도 확인한 후 다음의 단계를 진행하고자 한다.
+  - 평일 대여량
+  ![image](https://user-images.githubusercontent.com/67505208/98664050-37e44600-238d-11eb-8b4b-ef82634b8b88.png)
+  - 평일 반납량
+  ![image](https://user-images.githubusercontent.com/67505208/98816199-a4ce0d80-246b-11eb-972a-3484d4c87cf4.png)
+  - __대여량과 반납량의 차이가 크지 않으므로 대여량=이용량으로 가정하여 분석 진행__
   
 - 평일 시간대별 이용량을 통해 스테이션에 자전거 공급과 배분이 적절하게 이뤄지는지 파악해보고자 한다.
+  - 하루 평균 해당 동 스테이션 이용량
+![image](https://user-images.githubusercontent.com/67505208/98816323-d8109c80-246b-11eb-970c-60285f083c38.png)
+
+- 출퇴근시간을 따로 추출하여 하루 평균 해당 시간대의 대여량을 확인하고자 한다.
+  - 출근시간(06시-09시 59분), 퇴근시간(17시-20시25분)으로 가정
+  ![image](https://user-images.githubusercontent.com/67505208/98817233-27a39800-246d-11eb-9ab1-0dfc17bffdcc.png)
+
+- 출퇴근시간대에 임의의 스테이션에서 자전거를 대여하고자하는데 자전거가 없는 경우도 발생할 수 있다.
+  - 스테이션에 거치되어 있는 자전거 수를 안다면 어떤 스테이션에서 위 문제가 발생하는지 알 수 있을 것이다.
+  
+- 다음의 보고서를 참고하여 실제 거치되어 있는 자전거의 수는 거치대 수량에 31%만큼 배치한 다는 것을 알 수 있다.
+![스크린샷 2020-11-11 오후 10 32 52](https://user-images.githubusercontent.com/67505208/98817701-dd6ee680-246d-11eb-96fe-2ed7c4b8bc0a.png)
+  - 실제 배치되어 있을 자전거 수 예측
+  ![image](https://user-images.githubusercontent.com/67505208/98817807-08f1d100-246e-11eb-8e9f-0fe5bc7a8c5a.png)
+
+- 배치되어 있는 예측 자전거 수와 실제 하루 평균 사용량 간의 차이 파악
+  - 이때 '배치되어 있는 자전거 수' - '출퇴근 사용량' 값이 음수 값을 띈다면 앞서 언급한 **문제가 발생**하는 것이다.
+    - 출근 시간대에 대여하고 싶지만 자전거가 없는 상황 -> 추가 배치가 필요한 상황이다.
+  ![image](https://user-images.githubusercontent.com/67505208/98818571-18bde500-246f-11eb-9371-3bd6e41f326b.png)
+
+- 이제 츨근 시간대의 이용량과 퇴근 시간대의 이용량 별로 정렬하여 자전거 배치가 필요한 동을 알아보고자 한다.
+  - 출근 이용량 TOP 10
+  ![image](https://user-images.githubusercontent.com/67505208/98818765-57539f80-246f-11eb-97fd-ec4d3e71aa2e.png)
+  - 퇴근 이용량 TOP 10
+  ![image](https://user-images.githubusercontent.com/67505208/98818828-6d616000-246f-11eb-9083-1eaab4f5fb6e.png)
 
 ### 동별 인구수 증가 지역 TOP 10 선별
 
@@ -112,4 +139,3 @@
   - QGIS를 통해 신규 스테이션 마킹
   
 ### 신규 스테이션
-![image](https://user-images.githubusercontent.com/67505208/93592106-8825d400-f9ec-11ea-9dd2-4274894cd877.png)
