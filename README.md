@@ -54,7 +54,7 @@
 ## 병역사항
 - 2015.04. ~ 2017.01. 육군 병장 제대
 ## 포트폴리오
-### ☞ COMPAS - (고양시) 공공자전거 스테이션 최적의 위치선정
+### ☞ [COMPAS - (고양시) 공공자전거 스테이션 최적의 위치선정](https://github.com/OH1107/Project/tree/master/COMPAS_(%EA%B3%A0%EC%96%91%EC%8B%9C)_%EA%B3%B5%EA%B3%B5%EC%9E%90%EC%A0%84%EA%B1%B0_%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98_%EC%B5%9C%EC%A0%81%EC%9C%84%EC%B9%98%EC%84%A0%EC%A0%95)
 - 사용언어 : `Python`
 - 작업툴 : `Jupyter Notebook`, `Google Colab`, `QGIS`
 - 사용 라이브러리 : `pandas`, `numpy`, `matplotlib`, `haersine`, `geojson`, `json`, `folium`, `shpely.geometry`
