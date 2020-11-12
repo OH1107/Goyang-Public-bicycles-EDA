@@ -20,6 +20,7 @@
 - 인원 : 5명
 - 작업툴 : `Python`, `Jupyter Notebook`, `Google Colab`, `QGIS`
 - 사용 라이브러리 : `pandas`, `numpy`, `matplotlib`, `haersine`, `geojson`, `json`, `folium`, `shpely.geometry`
+- 프로젝트 결과 : 참가상(2020.09.23.)
 - 분석 방향
   - 현재 고양시 공공자전거(이하 피프틴)는 __여가 활동, 출퇴근/등하교의 목적으로 가장 많이 이용한다.__
   ![image](https://user-images.githubusercontent.com/67505208/98527927-f6856500-22be-11eb-8775-db91d1cf83c5.png)
