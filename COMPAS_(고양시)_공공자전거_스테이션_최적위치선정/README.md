@@ -85,18 +85,26 @@
   ![image](https://user-images.githubusercontent.com/67505208/98522843-82e05980-22b8-11eb-9735-9c2ac985f77c.png)
   
 - 대여량과 반냡량을 카운트하여 최고 빈도수 즉, 사용이 활발한 스테이션을 확인해보도록 한다.
+
 ![image](https://user-images.githubusercontent.com/67505208/98523064-ce930300-22b8-11eb-99eb-6396bcf4d2b9.png)
+
 ![image](https://user-images.githubusercontent.com/67505208/98523132-e66a8700-22b8-11eb-81ad-6cdb275176cc.png)
+
 ![image](https://user-images.githubusercontent.com/67505208/98523257-0a2dcd00-22b9-11eb-82d7-f8808ce50e97.png)
+
 ![image](https://user-images.githubusercontent.com/67505208/98523223-00a46500-22b9-11eb-9d11-bf4982501597.png)
+
 - __대여, 반납이 많은 순으로 정렬했을때, 스테이션의 등수가 대부분 동일한 것을 볼 수 있다.__
 
 ### 동별 출퇴근/등하교 이용량 TOP 10 선별
 - 앞서 진행했던 전처리 과정대로 스테이션별 대여, 반납 위치(행정동)을 추가한다.
+
 ![image](https://user-images.githubusercontent.com/67505208/98662702-87c20d80-238b-11eb-86d1-42326653c19d.png)
 
 ![image](https://user-images.githubusercontent.com/67505208/98662748-96102980-238b-11eb-928f-22747a1e76e6.png)
+
 - '01.운영이력.csv'데이터로부터 요일별 사용량을 추출한다.
+
 ![image](https://user-images.githubusercontent.com/67505208/98662921-c6f05e80-238b-11eb-8210-4a1ad1120b98.png)
 
 - 출퇴근 시간대를 파악하기 위해 평일동안의 사용량(대여,반납)을 시간별로 확인해본다.
