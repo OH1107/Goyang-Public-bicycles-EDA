@@ -128,17 +128,21 @@
 - 다음의 보고서를 참고하여 실제 거치되어 있는 자전거의 수는 거치대 수량에 31%만큼 배치한 다는 것을 알 수 있다.
 ![스크린샷 2020-11-11 오후 10 32 52](https://user-images.githubusercontent.com/67505208/98817701-dd6ee680-246d-11eb-96fe-2ed7c4b8bc0a.png)
   - 실제 배치되어 있을 자전거 수 예측
+  
   ![image](https://user-images.githubusercontent.com/67505208/98817807-08f1d100-246e-11eb-8e9f-0fe5bc7a8c5a.png)
 
 - 배치되어 있는 예측 자전거 수와 실제 하루 평균 사용량 간의 차이 파악
   - 이때 '배치되어 있는 자전거 수' - '출퇴근 사용량' 값이 음수 값을 띈다면 앞서 언급한 **문제가 발생**하는 것이다.
     - 출근 시간대에 대여하고 싶지만 자전거가 없는 상황 -> 추가 배치가 필요한 상황이다.
-  ![image](https://user-images.githubusercontent.com/67505208/98818571-18bde500-246f-11eb-9371-3bd6e41f326b.png)
+
+    ![image](https://user-images.githubusercontent.com/67505208/98818571-18bde500-246f-11eb-9371-3bd6e41f326b.png)
 
 - 이제 츨근 시간대의 이용량과 퇴근 시간대의 이용량 별로 정렬하여 자전거 배치가 필요한 동을 알아보고자 한다.
   - 출근 이용량 TOP 10
+  
   ![image](https://user-images.githubusercontent.com/67505208/98818765-57539f80-246f-11eb-97fd-ec4d3e71aa2e.png)
   - 퇴근 이용량 TOP 10
+  
   ![image](https://user-images.githubusercontent.com/67505208/98818828-6d616000-246f-11eb-9083-1eaab4f5fb6e.png)
 
 ### 동별 인구수 증가 지역 TOP 10 선별
