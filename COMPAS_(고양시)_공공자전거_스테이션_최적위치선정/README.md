@@ -204,3 +204,23 @@
 ![image](https://user-images.githubusercontent.com/67505208/99070764-349ec380-25f4-11eb-8c7e-02ece086d4ef.png)
 
 ![image](https://user-images.githubusercontent.com/67505208/99070799-484a2a00-25f4-11eb-903a-c7f8e254d704.png)
+
+- 추가한 신규 스테이션의 좌표를 확인하고자 한다.
+
+![image](https://user-images.githubusercontent.com/67505208/99071103-d9210580-25f4-11eb-8805-4a7cfa0d0b6a.png)
+
+- 제출형식에 맞게 신규 스테이션의 정보를 가공한다.
+  - 우리는 분석과정에서 거치대수에 대해 감안하지 못하였다.
+  - 그렇기 때문에 기존 스테이션의 평균 거치대수(25대) 값을 일괄적으로 부여하여 병합하도록 한다.
+  
+  ![image](https://user-images.githubusercontent.com/67505208/99071316-3e74f680-25f5-11eb-915f-117d0d724767.png)
+  ![image](https://user-images.githubusercontent.com/67505208/99071353-52b8f380-25f5-11eb-8a31-0be76fda9a40.png)
+
+- 신규 스테이션 테이블과 기존 스테이션 테이블을 병합하여 통일시키고, 최종 산출값을 출력한다.
+![image](https://user-images.githubusercontent.com/67505208/99071444-7b40ed80-25f5-11eb-9514-9d2212e37dee.png)
+
+- __기존 스테이션 164 + 신규 스테이션 35 = 변경 후 스테이션 199의 결과를 출력하였다.__
+![image](https://user-images.githubusercontent.com/67505208/99071529-a6c3d800-25f5-11eb-9eab-9a828f9151ed.png)
+
+- 위와 같은 결과를 통해 우리는 다음과 같은 **기대 효과와 한계점**을 도출하였다.
+![image](https://user-images.githubusercontent.com/67505208/99071603-ca871e00-25f5-11eb-9b35-8f61a6d6f4a6.png)
