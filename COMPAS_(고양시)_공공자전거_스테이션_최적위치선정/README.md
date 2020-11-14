@@ -24,7 +24,8 @@
 - 일정 및 결과제출 방법은 [COMPAS 홈페이지 참조](https://compas.lh.or.kr/subj/past/info?subjNo=SBJ_2007_001)
 ## 설명
 - 인원 : 5명
-- 작업툴 : `Python`, `Jupyter Notebook`, `Google Colab`, `QGIS`
+- 사용언어 : `Python`
+- 작업툴 : `Jupyter Notebook`, `Google Colab`, `QGIS`
 - 사용 라이브러리 : `pandas`, `numpy`, `matplotlib`, `haersine`, `geojson`, `json`, `folium`, `shpely.geometry`
 - 프로젝트 결과 : 참가상(2020.09.23.)
 - 분석 방향
