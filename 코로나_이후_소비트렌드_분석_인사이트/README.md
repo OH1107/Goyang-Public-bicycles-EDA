@@ -36,5 +36,17 @@
 ---
 ## 프로그래밍
 - 필요한 라이브러리 및 모듈을 호출한다.
+
 ![image](https://user-images.githubusercontent.com/67505208/100179813-1f8e3280-2f1a-11eb-9079-9b852b055ee8.png)
+
+- 데이터 전처리를 진행하도록 한다.
+  - 전처리에 앞서 어떤 데이터를 사용하는지 먼저 확인하고자 한다.
+
+- 제공된 데이터 중 삼성카드, 신한카드 데이터 셋으로 **오프라인 상품 구매 이력**을 분석하고자 한다.
+  - 그러나 삼성카드와 신한카드의 **업종별 범주**가 상이하므로 통일시키는 과정을 먼저 진행하고자 한다.
+  
+![image](https://user-images.githubusercontent.com/67505208/100180133-e30f0680-2f1a-11eb-88c4-bf19d152d5f7.png)
+
+![image](https://user-images.githubusercontent.com/67505208/100180184-f7530380-2f1a-11eb-929a-aa270f35c55d.png)
+
 
