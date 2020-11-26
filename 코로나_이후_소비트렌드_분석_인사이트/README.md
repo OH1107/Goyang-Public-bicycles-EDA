@@ -59,4 +59,7 @@
 
 ![image](https://user-images.githubusercontent.com/67505208/100337044-416ede80-301a-11eb-9f50-3b28ca66b30e.png)
 
-- 
+- 데이터 컬렴명과 형태를 통일시킨 후 데이터 병합
+
+![image](https://user-images.githubusercontent.com/67505208/100337206-6f542300-301a-11eb-8b76-87165d03fff9.png)
+
