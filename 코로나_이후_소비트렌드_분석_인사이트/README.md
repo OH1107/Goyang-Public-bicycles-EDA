@@ -53,4 +53,10 @@
 
 ![image](https://user-images.githubusercontent.com/67505208/100336808-f654cb80-3019-11eb-8cf9-cb9081b57d7a.png)
 
+- 신한카드 데이터와 삼성카드 데이터 통일화 작업 수행
+
+![image](https://user-images.githubusercontent.com/67505208/100336953-20a68900-301a-11eb-93d8-0307ca3fe7de.png)
+
+![image](https://user-images.githubusercontent.com/67505208/100337044-416ede80-301a-11eb-9f50-3b28ca66b30e.png)
+
 - 
