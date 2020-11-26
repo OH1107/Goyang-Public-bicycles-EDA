@@ -49,4 +49,8 @@
 
 ![image](https://user-images.githubusercontent.com/67505208/100180184-f7530380-2f1a-11eb-929a-aa270f35c55d.png)
 
+- 삼성카드 데이터 형태
 
+![image](https://user-images.githubusercontent.com/67505208/100336808-f654cb80-3019-11eb-8cf9-cb9081b57d7a.png)
+
+- 
