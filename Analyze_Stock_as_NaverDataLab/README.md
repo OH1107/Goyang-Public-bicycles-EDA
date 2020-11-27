@@ -12,6 +12,4 @@
 - [서비스 API를 활용한 `Naver Data Lab`](https://developers.naver.com/docs/datalab/search/#python)
 ---
 ## 프로그래밍
-### 0. 환경
-- Google Colab에서 진행했다.
-### 1. 라이브러리 import 하기
+- 
