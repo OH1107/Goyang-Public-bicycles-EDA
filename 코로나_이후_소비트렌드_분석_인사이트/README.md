@@ -63,6 +63,21 @@
 
 ![image](https://user-images.githubusercontent.com/67505208/100337206-6f542300-301a-11eb-8b76-87165d03fff9.png)
 
-![image](https://user-images.githubusercontent.com/67505208/100337352-9f032b00-301a-11eb-9604-e45642e7c6e9.png)
+- 코로나가 발생한 시점을 기준으로 비교하기 위해 2019년 상반기, 2020년 상반기 데이터를 추출
+  - 카드 사용 데이터는 **2019년 1월 부터 2020년 6월**까지의 데이터로 구성되어 있음
 
-- 
+![image](https://user-images.githubusercontent.com/67505208/100613548-13f69d80-3358-11eb-93b8-240d1ef1d7c0.png)
+
+- Mcorporation에서 제공한 카드 데이터 셋으로 **온라인 상품 구매 이력**을 분석하고자 한다.
+
+![image](https://user-images.githubusercontent.com/67505208/100613806-764f9e00-3358-11eb-8868-d272d43d0ba0.png)
+
+- 카테고리별 나누어져 있는 데이터를 하나의 데이터 프레임으로 병합
+
+![image](https://user-images.githubusercontent.com/67505208/100613993-c3337480-3358-11eb-8f68-c9598909439a.png)
+
+  - 다음과 같이 하나의 데이터프레임으로 병합하였다.
+  
+  ![image](https://user-images.githubusercontent.com/67505208/100614352-5c628b00-3359-11eb-804d-80d0cffbc3fe.png)
+
+
