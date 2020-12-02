@@ -88,3 +88,4 @@
 
 ![image](https://user-images.githubusercontent.com/67505208/100846832-5805b180-34c2-11eb-8266-376db31f50a2.png)
 
+- [코로나바이러스감염증-19 현황 누적 데이터](https://kdx.kr/data/view?product_id=25918)
