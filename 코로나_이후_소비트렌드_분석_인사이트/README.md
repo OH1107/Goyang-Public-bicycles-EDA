@@ -94,3 +94,7 @@
 
 ![image](https://user-images.githubusercontent.com/67505208/100847425-29d4a180-34c3-11eb-8094-2a84b4c580d4.png)
 
+![image](https://user-images.githubusercontent.com/67505208/100847807-9b145480-34c3-11eb-94a7-d3bcb2a83c28.png)
+
+- 그래프를 통해 확진자가 **2월 말, 3월 초**를 기점으로 크게 늘어나는 것을 확인할 수 있다.
+- 또한, 
