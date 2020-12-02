@@ -84,4 +84,7 @@
 
 ![image](https://user-images.githubusercontent.com/67505208/100846535-fcd3bf00-34c1-11eb-92cb-5d200035c44b.png)
 
--
+- 코로나 확진자의 증가에 따른 소비건수의 변화를 알아보기 위해 다음의 데이터를 사용
+
+![image](https://user-images.githubusercontent.com/67505208/100846832-5805b180-34c2-11eb-8266-376db31f50a2.png)
+
