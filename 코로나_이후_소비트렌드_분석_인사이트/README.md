@@ -137,7 +137,7 @@
     
 - 코로나와 업종간 상관관계가 **우연의 일치로 존재한 것인지, 혹은 직간접적인 영향을 받아 증감한 것인지** 검증하고자 한다.
 
-```{.python}
+```python
 # 함수: 전년대비 소비변화량 시각화
 def barchart(onoff=0, category = 'category'):
     df = categorical_cnt(onoff, category)
