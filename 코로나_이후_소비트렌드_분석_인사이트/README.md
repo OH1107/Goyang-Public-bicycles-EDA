@@ -136,4 +136,63 @@
     - 교육 : '교육/학원'
     
 - 코로나와 업종간 상관관계가 **우연의 일치로 존재한 것인지, 혹은 직간접적인 영향을 받아 증감한 것인지** 검증하고자 한다.
+
+"""python
+# 함수: 전년대비 소비변화량 시각화
+def barchart(onoff=0, category = 'category'):
+    df = categorical_cnt(onoff, category)
+    df_2019 = df[df['날짜'].str.contains('2019')]
+    df_2020 = df[df['날짜'].str.contains('2020')]
+
+    a = df_2019['소비건수'].sum()
+    b = df_2020['소비건수'].sum()
+    c = b-a
+    d = round(c/a * 100)
+
+    if onoff == 0 :
+        e = str(abs(c)) + '건 증가' + '\n' + str(abs(d)) + '% 증가'
+        plt.rcParams['figure.figsize'] = [6, 4]
+        labels = ['2019년','2020년']
+        width = 0.5
+
+        fig, ax = plt.subplots()
+        rects1 = ax.bar(0, height=a, width=width, label='2019년', color='yellowgreen', alpha=0.5)
+        rects2 = ax.bar(0.5, height=b, width=width, label='2020년', color='yellowgreen', alpha=0.9)
+
+        ax.set_ylabel('구매건수',fontsize=16,fontproperties=fprop)
+        ax.set_xlabel('년도',fontsize=16,fontproperties=fprop)
+        ax.set_title( category +'구매건수',fontsize=20,fontproperties=fprop)
+        ax.annotate(str(a)+'건',xy=(-0.1,a-a*0.05),fontsize=12,fontproperties=fprop)
+        ax.annotate(str(b)+'건',xy=(0.4,b-b*0.07),fontsize=12,fontproperties=fprop)
+        ax.annotate(e, xy=(0.25,b/2),size=13, ha='center', va="center", bbox=dict(boxstyle="round", alpha=0.8, ec="gray"),fontproperties=fprop)
+        ax.set_xticks(x)
+        ax.set_xticklabels(labels, fontsize=14)
+        for label in ax.get_xticklabels() :
+            label.set_fontproperties(fprop)
+        ax.legend(loc='lower left',prop=fprop)
+        plt.show()
+    else:
+        e = str(abs(c))[:-2] + '건 감소' + '\n' + str(abs(d)) + '% 감소'
+    
+        plt.rcParams['figure.figsize'] = [6, 4]
+        labels = ['2019년','2020년']
+        width = 0.5
+
+        fig, ax = plt.subplots()
+        rects1 = ax.bar(0, height=a, width=width, label='2019년', color='skyblue', alpha=0.4)
+        rects2 = ax.bar(0.5, height=b, width=width, label='2020년', color='skyblue', alpha=0.8)
+
+        ax.set_ylabel('구매건수',fontsize=16,fontproperties=fprop)
+        ax.set_xlabel('년도',fontsize=16,fontproperties=fprop)
+        ax.set_title( category +'구매건수',fontsize=20,fontproperties=fprop)
+        ax.annotate(str(a)[:-2]+'건',xy=(-0.1,a-a*0.05),fontsize=12,fontproperties=fprop)
+        ax.annotate(str(b)[:-2]+'건',xy=(0.4,b-b*0.07),fontsize=12,fontproperties=fprop)
+        ax.annotate(e, xy=(0.25,b/2),size=13, ha='center', va="center", bbox=dict(boxstyle="round", alpha=0.8, ec="gray"),fontproperties=fprop)
+        ax.set_xticks(x)
+        ax.set_xticklabels(labels, fontsize=14)
+        for label in ax.get_xticklabels() :
+            label.set_fontproperties(fprop)
+        ax.legend(loc='lower left',prop=fprop)
+        plt.show()
+"""
  
