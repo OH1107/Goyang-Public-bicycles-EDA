@@ -208,5 +208,3 @@ def barchart(onoff=0, category = 'category'):
 
 ![image](https://user-images.githubusercontent.com/67505208/101984643-0df0ad00-3cc6-11eb-8961-10c1c58157fb.png)
 
--
----
