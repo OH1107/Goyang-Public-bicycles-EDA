@@ -110,3 +110,4 @@
 - 기간 : 2020.12.22. ~ 2020.12.28.
 - 내용 : 
 - 결과물 : [소스코드](https://github.com/OH1107/Project/blob/master/2020%20Kaggle%20Machine%20Learning%20%26%20Data%20Science%20Survey/%20%5BKaggle_2020%5D_Visualization_%26_Analysis.ipynb)
+- URL : https://www.kaggle.com/c/kaggle-survey-2020
