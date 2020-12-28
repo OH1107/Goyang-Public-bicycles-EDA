@@ -102,3 +102,11 @@
 - 내용 : 언택트, 뉴노멀 시대와 더불어 코로나 바이러스 발생 이후 급변하는 소비 행태를 분석 및 시각화, 이를 바탕으로 2020년 소비 트렌드 및 향후 소비 행태 인사이트 도출
 - 결과물 : [분석 보고서](https://github.com/OH1107/Project/blob/master/%EC%BD%94%EB%A1%9C%EB%82%98_%EC%9D%B4%ED%9B%84_%EC%86%8C%EB%B9%84%ED%8A%B8%EB%A0%8C%EB%93%9C_%EB%B6%84%EC%84%9D_%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8/%E1%84%8F%E1%85%A9%E1%84%85%E1%85%A9%E1%84%82%E1%85%A1_%E1%84%8B%E1%85%B5%E1%84%92%E1%85%AE_%E1%84%89%E1%85%A9%E1%84%87%E1%85%B5%E1%84%90%E1%85%B3%E1%84%85%E1%85%A6%E1%86%AB%E1%84%83%E1%85%B3_%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8_%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3.pdf), [제출용 소스코드]()
 - 프로젝트 결과 : 장려상 (2020.11.05. 80팀 중 4등)
+### ☞ [2020 Kaggle Machine Learning & Data Science Survey](https://github.com/OH1107/Project/tree/master/2020%20Kaggle%20Machine%20Learning%20%26%20Data%20Science%20Survey)
+- 사용언어 : `Python`
+- 작업툴 : `Colab`
+- 사용 라이브러리 : `pandas`, `numpy`, `matplotlib`, `seaborn`
+- 인원 : 1명
+- 기간 : 2020.12.22. ~ 2020.12.28.
+- 내용 : 
+- 결과물 : [소스코드](https://github.com/OH1107/Project/blob/master/2020%20Kaggle%20Machine%20Learning%20%26%20Data%20Science%20Survey/%20%5BKaggle_2020%5D_Visualization_%26_Analysis.ipynb)
