@@ -7,6 +7,13 @@
 ### 참고
 - https://www.kaggle.com/c/kaggle-survey-2020
 ## 설명
+- 작업툴 :
+- 사용 라이브러리 :
+- 인원 :
+- 기간 :
+- 담당 업무 : 
+### 분석방향
+
 ## 데이터
 - [설문조사(데이터) 설명](https://github.com/OH1107/Project/blob/master/2020%20Kaggle%20Machine%20Learning%20%26%20Data%20Science%20Survey/supplementary_data/kaggle_survey_2020_answer_choices.pdf)
 - [설문조사 방법 및 논리 흐름](https://github.com/OH1107/Project/blob/master/2020%20Kaggle%20Machine%20Learning%20%26%20Data%20Science%20Survey/supplementary_data/kaggle_survey_2020_methodology.pdf)
