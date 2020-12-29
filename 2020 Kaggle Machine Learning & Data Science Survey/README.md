@@ -24,5 +24,7 @@
 
 - [설문조사(데이터) 문항](https://github.com/OH1107/Project/blob/master/2020%20Kaggle%20Machine%20Learning%20%26%20Data%20Science%20Survey/supplementary_data/kaggle_survey_2020_answer_choices.pdf)
 - [설문조사 방법 및 논리 흐름](https://github.com/OH1107/Project/blob/master/2020%20Kaggle%20Machine%20Learning%20%26%20Data%20Science%20Survey/supplementary_data/kaggle_survey_2020_methodology.pdf)
+## 결과
+- 프로젝트 결과물 : [소스코드](https://github.com/OH1107/Project/blob/master/2020%20Kaggle%20Machine%20Learning%20%26%20Data%20Science%20Survey/%20%5BKaggle_2020%5D_Visualization_%26_Analysis.ipynb)
 ---
 ## 프로그래밍
