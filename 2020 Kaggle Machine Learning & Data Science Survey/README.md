@@ -7,11 +7,12 @@
 ### 참고
 - https://www.kaggle.com/c/kaggle-survey-2020
 ## 설명
-- 작업툴 :
-- 사용 라이브러리 :
-- 인원 :
-- 기간 :
-- 담당 업무 : 
+- 사용언어 : Python
+- 작업툴 : Colab
+- 사용 라이브러리 : pandas, numpy, matplotlib, seaborn
+- 인원 : 1명
+- 기간 : 2020.12.22. ~ 2020.12.28.
+- 내용 : 2020년 Kaggle DS와 ML 설문조사 원시 데이터를 시각화 및 분석하여 다양한 인사이트를 도출
 ### 분석방향
 
 ## 데이터
