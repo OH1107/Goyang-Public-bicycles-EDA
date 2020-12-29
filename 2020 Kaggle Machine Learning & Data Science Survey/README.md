@@ -7,9 +7,9 @@
 ### 참고
 - https://www.kaggle.com/c/kaggle-survey-2020
 ## 설명
-- 사용언어 : Python
-- 작업툴 : Colab
-- 사용 라이브러리 : pandas, numpy, matplotlib, seaborn
+- 사용언어 : `Python`
+- 작업툴 : `Colab`
+- 사용 라이브러리 : `pandas`, `numpy`, `matplotlib`, `seaborn`
 - 인원 : 1명
 - 기간 : 2020.12.22. ~ 2020.12.28.
 - 내용 : Kaggle ML&DS 사용자를 대상으로 한 설문조사 데이터를 활용하여 분석 및 시각화를 통한 인사이트 도출
