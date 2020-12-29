@@ -1,4 +1,4 @@
-# 제목
+# 2020 Kaggle Machine Learning & Data Science Survey
 ## 개요
 ### 배경 및 목적
 - 2020 Kaggle Machine Learning & Data Science Survey
@@ -8,8 +8,7 @@
 - https://www.kaggle.com/c/kaggle-survey-2020
 ## 설명
 ## 데이터
-- 설문조사(데이터) 설명
-- 설문조사 방법 및 논리 흐름
-## 결과
+- [설문조사(데이터) 설명](https://github.com/OH1107/Project/blob/master/2020%20Kaggle%20Machine%20Learning%20%26%20Data%20Science%20Survey/supplementary_data/kaggle_survey_2020_answer_choices.pdf)
+- [설문조사 방법 및 논리 흐름](https://github.com/OH1107/Project/blob/master/2020%20Kaggle%20Machine%20Learning%20%26%20Data%20Science%20Survey/supplementary_data/kaggle_survey_2020_methodology.pdf)
 ---
 ## 프로그래밍
